@@ -1,0 +1,19 @@
+Algoritmo "Converter REAIS em DÓLARES,
+"SABENDO QUE HJ DIA;25/09/22,UM DÓLAR VALE 5,26 REAIS NO BR."
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : João H.N.T
+// Data atual  : 25/09/2022
+Var
+// Seção de Declarações das variáveis 
+   r1,d1:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Quantos reais você tem? ")
+   leia(r1)
+   d1 <- r1 / 5.26
+   escreva("Você podera converter ",r1," reais ,em ",d1,"dólares.")
+
+Fimalgoritmo

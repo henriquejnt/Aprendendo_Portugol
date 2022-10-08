@@ -1,0 +1,18 @@
+Algoritmo "soma dos numeros#01"
+// 
+//  
+// Descrição   : ler dois numeros e dps somar entre eles,e em seguida,mostrar a soma
+// Autor(a)    : Joao Henrique Novaes Torres
+// Data atual  : 22/09/2022
+Var
+nota1,nota2, s:inteiro
+Inicio
+     escreva("Digita um valor: ")
+     leia(nota1)
+     escreva("Digita outro valor: ")
+     leia(nota2)
+     s <- nota1 + nota2
+escreva("A soma entre ", nota1, " e ",nota2, ",é igual a  ", s)
+
+
+Fimalgoritmo
